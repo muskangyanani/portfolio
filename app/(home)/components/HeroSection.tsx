@@ -7,7 +7,7 @@ export default function HeroSection() {
     <div className='flex items-center justify-center min-h-[60vh]'>
       <div className='space-y-4 text-center'>
         <h1 className='font-bold text-7xl text-center md:text-8xl'><span className='text-rose-600'>Muskan</span> Gyanani</h1>
-        <p className='text-lg text-gray-400 text-center'>A second year BTech student passionate about Computer Science and development. Proficient in front-end technologies and eager to delve into back-end development, I'm enthusiastic about learning new technologies to enhance my skills further.</p>
+        <p className='text-lg text-gray-400 text-center'>A second year BTech student passionate about Computer Science and development. Proficient in front-end technologies and eager to delve into back-end development, I am enthusiastic about learning new technologies to enhance my skills further.</p>
         <Link href={"mailto:muskaann.129@gmail.com"} className='inline-block'>
           <div>
             <Button
