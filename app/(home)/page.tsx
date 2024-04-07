@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import { Spotlight } from "./components/ui/Spotlight";
+import Skills from './components/Skills';
 
 export default function page() {
   return (
@@ -15,8 +16,8 @@ export default function page() {
         <Navbar/>
         <HeroSection/>
       </div>
-      
       </div>
+      <Skills/>
     </div>
   )
 }
