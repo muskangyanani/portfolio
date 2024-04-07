@@ -14,6 +14,12 @@ export default function Projects() {
       cover: '/aarohan.png',
     },
     {
+      title: 'User Authentication System - Django', 
+      tech: [SiDjango, SiPython, SiJsonwebtokens],
+      link: 'https://github.com/muskangyanani/userAuthentication-Django',
+      cover: '/django.png',
+    },
+    {
       title: 'Portfolio',
       tech: [SiNextdotjs, SiReact, SiTailwindcss, SiBun],
       link: 'https://muskangyanani.vercel.app',
@@ -23,12 +29,6 @@ export default function Projects() {
       title: 'Thread Clone',
       tech: [SiAstro, SiReact, SiTailwindcss, SiBun],
       link: 'https://astro-thread-clone.vercel.app',
-      cover: '/threadclone.png',
-    },
-    {
-      title: 'User Authentication System - Django', 
-      tech: [SiDjango, SiPython, SiJsonwebtokens],
-      link: 'https://github.com/muskangyanani/userAuthentication-Django',
       cover: '/threadclone.png',
     },
     {
