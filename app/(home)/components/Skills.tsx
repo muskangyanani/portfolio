@@ -35,12 +35,12 @@ export default function Skills() {
       icon: SiGit,
     },
     {
-      text: 'GitHub',
-      icon: SiGithub,
-    },
-    {
       text: 'Django Rest Framework',
       icon: SiDjango,
+    },
+    {
+      text: 'GitHub',
+      icon: SiGithub,
     },
   ]
 

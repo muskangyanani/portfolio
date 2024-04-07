@@ -19,7 +19,7 @@ export default function HeroSection() {
           </div>
         </Link>
       </div>
-      <div className='h-6 xl:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full'></div>
+      <div className='h-2 xl:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full'></div>
     </div>
   )
 }
