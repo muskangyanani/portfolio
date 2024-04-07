@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 	title: "Muskan Gyanani",
 	authors: {
-		name: "Muskan",
+		name: "Muskan Gyanani",
 	},
 
 	description:
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 		images: "/portfolio.png",
 		type: "website",
 	},
-	keywords: ["daily web coding", "chensokheng", "dailywebcoding"],
+	keywords: ["muskan", "muskangyanani","portfolio","aceternityUI", "website"],
 };
 export default function RootLayout({
   children,
@@ -32,17 +32,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={spaceGrotesk.className}>
-        <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
-      </body>
-    </html>
+			<html lang="en" suppressHydrationWarning>
+				<head>
+					<link rel="icon" href="/favicon.ico" />
+				</head>
+				<body className={spaceGrotesk.className}>
+					<ThemeProvider
+							attribute="class"
+							defaultTheme="dark"
+							enableSystem
+							disableTransitionOnChange
+						>
+							{children}
+						</ThemeProvider>
+				</body>
+			</html>
   );
 }

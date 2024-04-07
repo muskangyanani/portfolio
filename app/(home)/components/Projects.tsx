@@ -16,7 +16,7 @@ export default function Projects() {
     {
       title: 'User Authentication System - Django', 
       tech: [SiDjango, SiPython, SiJsonwebtokens],
-      link: 'https://github.com/muskangyanani/userAuthentication-Django',
+      link: 'https://github.com/muskangyanani/user-auth-django-withUI',
       cover: '/django.png',
     },
     {
