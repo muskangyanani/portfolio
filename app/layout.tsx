@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 	},
 
 	description:
-		"A second year BTech student passionate about Computer Science and development. Proficient in front-end technologies and eager to delve into back-end development, I am enthusiastic about learning new technologies to enhance my skills further.",
+		"A third year BTech student passionate about Computer Science and development. Proficient in front-end technologies and eager to delve into back-end development, I am enthusiastic about learning new technologies to enhance my skills further.",
 	openGraph: {
 		title: "Muskan Gyanani",
 		description:
-			"A second year BTech student passionate about Computer Science and development. Proficient in front-end technologies and eager to delve into back-end development, I am enthusiastic about learning new technologies to enhance my skills further.",
+			"A third year BTech student passionate about Computer Science and development. Proficient in front-end technologies and eager to delve into back-end development, I am enthusiastic about learning new technologies to enhance my skills further.",
 		url: "https://muskangyanani.vercel.app/",
 		siteName: "muskangyanani",
 		images: "/portfolio.png",

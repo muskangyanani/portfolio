@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import { HoverEffect } from './ui/card-hover-effect'
-import { SiAstro, SiDjango, SiGit, SiGithub, SiJavascript, SiPython, SiReact, SiTailwindcss } from 'react-icons/si'
+import { SiDjango, SiGit, SiGithub, SiJavascript, SiPython, SiReact, SiTailwindcss } from 'react-icons/si'
 
 export default function Skills() {
 
@@ -15,11 +15,7 @@ export default function Skills() {
       icon: SiJavascript,
     },
     {
-      text: 'Astro',
-      icon: SiAstro,
-    },
-    {
-      text: 'React (Basic)',
+      text: 'React',
       icon: SiReact,
     },
     {
@@ -31,12 +27,12 @@ export default function Skills() {
       icon: SiDjango,
     },
     {
-      text: 'Git',
-      icon: SiGit,
-    },
-    {
       text: 'Django Rest Framework',
       icon: SiDjango,
+    },
+    {
+      text: 'Git',
+      icon: SiGit,
     },
     {
       text: 'GitHub',
