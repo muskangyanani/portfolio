@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { Button } from './ui/moving-border';
+import { MdOutlineFileDownload } from 'react-icons/md';
 
 export default function HeroSection() {
   return (
@@ -10,21 +11,34 @@ export default function HeroSection() {
           <span className="text-rose-600">Muskan</span> Gyanani
         </h1>
         <p className="text-lg text-gray-400 text-center">
-          A third year BTech student passionate about Computer Science and
-          development. Proficient in front-end technologies and eager to delve
-          into back-end development, I am enthusiastic about learning new
-          technologies to enhance my skills further.
+          Computer Science student and Full Stack Developer with expertise in
+          React.js, and Node.js. Proven track record in building scalable
+          applications and integrating AI solutions in startup environments. I
+          am enthusiastic about learning new technologies to enhance my skills
+          further.
         </p>
-        <Link href={'mailto:muskaann.129@gmail.com'} className="inline-block">
-          <div>
+        <div className="flex gap-4 justify-center">
+          <Link href={'mailto:muskaann.129@gmail.com'} className="inline-block">
             <Button
-              containerClassName="text-white hover:scale-110 transition-all"
+              containerClassName="text-white "
               className="text-sm font-bold"
             >
               Contact Me
             </Button>
-          </div>
-        </Link>
+          </Link>
+          <a
+            href="/Muskan_Resume.pdf"
+            download="Muskan_Resume.pdf"
+            className="inline-block"
+          >
+            <Button
+              containerClassName="bg-rose-600 hover:bg-rose-700 transition-all"
+              className="text-sm font-bold text-white flex items-center gap-2"
+            >
+              Resume <MdOutlineFileDownload className="text-lg" />
+            </Button>
+          </a>
+        </div>
       </div>
       <div className="h-2 xl:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 w-full"></div>
     </div>
