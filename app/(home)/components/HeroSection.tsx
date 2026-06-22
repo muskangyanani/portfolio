@@ -10,12 +10,16 @@ export default function HeroSection() {
         <h1 className="font-bold text-7xl text-center md:text-8xl">
           <span className="text-rose-600">Muskan</span> Gyanani
         </h1>
-        <p className="text-lg text-gray-400 text-center">
-          Computer Science student and Full Stack Developer with expertise in
-          React.js, and Node.js. Proven track record in building scalable
-          applications and integrating AI solutions in startup environments. I
-          am enthusiastic about learning new technologies to enhance my skills
-          further.
+        <p className="text-base font-medium text-rose-500 tracking-wide">
+          AI-Native Full-Stack Engineer · Agentic AI &amp; Automation · React /
+          Node.js
+        </p>
+        <p className="text-lg text-gray-400 text-center max-w-2xl mx-auto">
+          I build production AI products with React and Node.js, shipping
+          features weekly at a fast-moving SaaS startup. I work with AI as a
+          force multiplier — using Claude Code and LLMs to move fast while
+          keeping code clean — focusing on the optimal solution, every edge
+          case, and thorough impact analysis before shipping at scale.
         </p>
         <div className="flex gap-4 justify-center">
           <Link href={'mailto:muskaann.129@gmail.com'} className="inline-block">

@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import { Spotlight } from './components/ui/Spotlight';
+import Experience from './components/Experience';
 import Skills from './components/Skills';
-import Projects from './components/Projects';
+// import Projects from './components/Projects';
 import Footer from './components/Footer';
 
 export default function page() {
@@ -19,8 +20,9 @@ export default function page() {
           <HeroSection />
         </div>
       </div>
+      <Experience />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Footer />
     </div>
   );

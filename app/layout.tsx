@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 	},
 
 	description:
-		"A third year BTech student passionate about Computer Science and development. Proficient in front-end technologies and eager to delve into back-end development, I am enthusiastic about learning new technologies to enhance my skills further.",
+		"AI-Native Full-Stack Engineer building production AI products with React and Node.js. Specializing in agentic AI, LLM integrations, and automation at a fast-moving SaaS startup.",
 	openGraph: {
 		title: "Muskan Gyanani",
 		description:
-			"A third year BTech student passionate about Computer Science and development. Proficient in front-end technologies and eager to delve into back-end development, I am enthusiastic about learning new technologies to enhance my skills further.",
+			"AI-Native Full-Stack Engineer building production AI products with React and Node.js. Specializing in agentic AI, LLM integrations, and automation at a fast-moving SaaS startup.",
 		url: "https://muskangyanani.vercel.app/",
 		siteName: "muskangyanani",
 		images: "/portfolio.png",
